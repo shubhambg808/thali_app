@@ -1,0 +1,66 @@
+.italicLine {
+  font-style: italic;
+  text-align: center;
+}
+
+.dishItem {
+  font-size: 25px;
+  color: rgb(155, 84, 221);
+}
+
+.itemsListTop {
+  border: 2px solid grey;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 2px 2px 4px 2px rgb(148, 147, 147);
+  border-radius: 25px;
+}
+
+.topImgs {
+  height: 100px;
+  width: 100px;
+  border: 2px solid blueviolet;
+  border-radius: 30%;
+}
+
+.itemsList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.products {
+  border: 2px solid white;
+  margin: 20px;
+  box-shadow: 2px 2px 4px 2px rgb(148, 147, 147);
+  border-radius: 15px;
+  height: 200px;
+}
+.itmsListImgs {
+  border: 2px solid blueviolet;
+  height: 125px;
+  width: 150px;
+  border-radius: 10%;
+}
+.qtyIncDec {
+  border: 2px solid blueviolet;
+  background-color: rgb(153, 85, 216);
+  width: 70px;
+  border-radius: 5px;
+  text-align: center;
+}
+.qtyIncDec:hover {
+  background-color: rgb(88, 66, 109);
+}
+.qtyIncDec:active {
+  background-color: rgb(57, 21, 90);
+}
+.prodtitle {
+  text-decoration: underline;
+  color: blueviolet;
+  font-size: 18px;
+}
+.price {
+  color: blueviolet;
+}
